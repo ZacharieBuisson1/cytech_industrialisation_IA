@@ -15,7 +15,7 @@ L'objectif de ce cours est donc de rendre disponible le modèle en le mettant en
 Ce cours abordera donc la création d'un système de mise à disposition d'un modèle de Machine Learning par la création d'une application associée (API - Application Programing Interface). 
 Cette application sera ensuite déployée en production sur des environnements adaptés encapsulé dans une image Docker elle même déployée et configurée en production par des fichiers de Configuration kubernetes. 
 
-Ces travaux sont l'occasion de (re)découvrir tout un ensemble de bonnes pratiques MLOps, avec des aspects de clean code, sécurité et résillience. Ces bonnes pratiques sont essentielles à la bonne réalisation d'un projet de Data Science. 
+Ces travaux sont l'occasion de (re)découvrir tout un ensemble de bonnes pratiques MLOps. Ces bonnes pratiques sont essentielles à la bonne réalisation d'un projet de Data Science et permettront d'apporter une vision opérationnelle à vos futurs projets en entreprise.
 
 ## Plan détaillé du cours
 
@@ -23,10 +23,11 @@ Ces travaux sont l'occasion de (re)découvrir tout un ensemble de bonnes pratiqu
     - Présentation du cours
     - Présentation des intervenants du cours 
     - Présentation du projet 
-    - Notation 
+    - Notation
 
 
-2. Norme de codes, clean code & ingéniérie logicielle
+2. Principes de programation Python avancés
+    - Qu'est ce que l'ingéniérie logicielle ?
     - Norme de code Python : PEP8
     - Notebook VS fichier Python : vers le scaling d'une application
     - Programation orientée objet 
@@ -72,7 +73,7 @@ Ces travaux sont l'occasion de (re)découvrir tout un ensemble de bonnes pratiqu
 
 8. Continuous Integration (CI)
     - Qu'est ce que la CI ? 
-    - Testing Automatique (Unit tests, Pen Tests, Tests de charge...)
+    - Testing Automatique (Unit tests, tests de masse, Pen Tests, Tests de charge...)
     - Evaluation de qualité de code
     - Build automatique d'image
     - Construction de documentations automatique
