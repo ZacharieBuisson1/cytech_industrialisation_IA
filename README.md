@@ -31,7 +31,6 @@ Ces travaux sont l'occasion de (re)découvrir tout un ensemble de bonnes pratiqu
     - Norme de code Python : PEP8
     - Notebook VS fichier Python : vers le scaling d'une application
     - Programation orientée objet 
-    - Programation asynchrone
     - Programation SOLID
 
 3. Git & GitHub : introduction au code en collaboration
@@ -45,8 +44,10 @@ Ces travaux sont l'occasion de (re)découvrir tout un ensemble de bonnes pratiqu
 4. API : Création d'une application en Python
     - Définition & motivation
     - Framework de développement Python 
+    - Programation Asynchrone
     - Open API (ou Swagger)
     - PyPI : packaging de code
+    - Mise en production sans API ?
 
 5. Infrastucture de production
     - Développement 
