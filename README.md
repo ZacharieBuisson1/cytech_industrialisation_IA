@@ -41,7 +41,7 @@ Ces travaux sont l'occasion de (re)découvrir tout un ensemble de bonnes pratiqu
     - Quelques commandes de base
     - Quelques fichiers à connaitre
 
-4. API : Création d'une application en Python
+4. Les API en Python
     - Définition & motivation
     - Framework de développement Python 
     - Programation Asynchrone

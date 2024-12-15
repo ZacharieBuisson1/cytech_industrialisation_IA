@@ -52,6 +52,12 @@ Notons que ces frameworks utilisent la programmation asynchrone : c'est l'objet 
 
 ## Programmation Asynchrone
 
+La programmation asynchrone est une programmation qui permet d'exécuter plusieurs taches de manière concurrente et qui évite de passer du temps à exécuter une tache et à attendre la fin de celle-ci.
+
+Il ne faut pas confondre deux taches qui s'exécutent de manière concurrente VS en parallèle : 
+- en **concurrence**, on a différentes taches qui s'exécutent en simultanée ;
+- en **parallèle**, il s'agit d'une seule tache qui s'exécute en plusieurs sous-tâche.
+
 ## Open API - Swagger
 
 ## PyPI : packaging de code
