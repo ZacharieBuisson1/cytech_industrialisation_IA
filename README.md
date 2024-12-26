@@ -42,10 +42,10 @@ Ces travaux sont l'occasion de (re)découvrir tout un ensemble de bonnes pratiqu
     - Quelques fichiers à connaitre
 
 4. Les API en Python
-    - Définition & motivation
+    - Description générique
     - Framework de développement Python 
     - Programation Asynchrone
-    - Open API (ou Swagger)
+    - Open API - swagger
     - PyPI : packaging de code
     - Mise en production sans API ?
 

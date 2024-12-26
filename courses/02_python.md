@@ -102,3 +102,30 @@ Des actions plus complètes sont possibles sur la création de classes avancées
 
 ## Programmation SOLID
 
+Une des approches les plus modernes et les plus avancées pour créer du code en 2024 est la programmation SOLID. Elle est composée de 5 notions :
+1. Single Responsibility Principle (SRP) : chaque classe, chaque module ou chaque fonction doit avoir une seule est unique fonction ;
+
+*Exemple: Une classe "Facture Informatique" doit uniquement gérer des factures informatiques, pas des contrats.*
+
+2. Open/Closed Principle (OCP) : chaque code / fonction doit être ouvert à l'extension mais fermé à la modification ;
+
+*Exemple: Si on ajoute un nouveau type de facture, il faut créer une classe "Facture Vehicules".*
+
+3. Liskov Substitution Principle (LSP) : Une classe qui hérite d'une fonction doit pouvoir utiliser les méthodes de la classe mère sans problème ;
+
+*Exemple: Si on crée une classe "Forme Géométrique" qui a une méthode périmètre, il faut qu'une classe "Carré" qui hérite de "Forme Géométrique" s'exécute sans soucis.*
+
+4. Interface Segregation Principle (ISP) : Une interface ne doit contenir que ce qui est pertinent pour un utilisateur spécifique ;
+
+*Exemple: Si on prend une classe "Animal" avec une méthode nager et une méthode voler, il vaut mieux faire une classe AnimalVolant et une classe AnimalNageur.*
+
+5. Dependency Inversion Principle (DIP) : Le code haut-niveau (logique principale) ne doit pas dépendre du code bas-niveau (détails d’implémentation). Les deux doivent dépendre d’abstractions.
+
+*Exemple : Utilisez des interfaces ou des abstractions pour définir comment une base de données doit être manipulée.*
+
+La programmation SOLID comporte beaucoup d'avantages : 	
+
+1.	**Facilité de maintenance :** Les modifications dans le code sont localisées, limitant les effets secondaires.
+2.	**Évolutivité :** Ajout de nouvelles fonctionnalités sans toucher au code existant.
+3.	**Lisibilité :** Code mieux organisé et plus facile à comprendre.
+4.	**Testabilité :** Les principes SOLID rendent les tests unitaires plus simples.
