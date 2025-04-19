@@ -50,14 +50,9 @@ Ces travaux sont l'occasion de (re)découvrir tout un ensemble de bonnes pratiqu
     - Mise en production sans API ?
 
 5. Infrastucture de production
-    - Développement 
-    - Recette 
-    - Pre-production
-    - Production
-    - Framework de BDD
-    - Nomenclature de BDD
-    - Architecture on-premise
-    - Cloud 
+    - Bases de Données
+    - Environnements & Motivations
+    - Architecture on-premise VS Cloud
 
 6. Docker
     - Qu'est ce que Docker ? 
