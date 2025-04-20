@@ -55,15 +55,13 @@ Ces travaux sont l'occasion de (re)découvrir tout un ensemble de bonnes pratiqu
     - Architecture on-premise VS Cloud
 
 6. Docker
-    - Qu'est ce que Docker ? 
-    - Motivation 
-    - Quelques commandes dans Docker
+    - Qu'est ce que Docker ?  
+    - Fonctionnement et commandes de base sur Docker
     - Repertoire d'images
-    - Que faire avec mon image ?
+    - Mon conteneur peut être en ligne, et maintenant ? 
 
 7. Kubernetes
     - Qu'est ce que Kubernetes ? 
-    - Motivation 
     - Scalabilité horizontale VS verticale
     - Redondance, maintenance et persistence
 
