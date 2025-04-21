@@ -6,7 +6,6 @@ Nous verrons ici les enjeux sur la conception d'un code résillient, la normalis
 
 Cette partie de cours a été rédigée à partir de : 
 - la documentation PEP8 pour Python : https://peps.python.org/pep-0008/ (n'allez pas lire cette documentation) ;
-- 
 
 ## Python & Ingénierie logicielle
 

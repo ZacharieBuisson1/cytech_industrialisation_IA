@@ -71,8 +71,6 @@ Ces travaux sont l'occasion de (re)découvrir tout un ensemble de bonnes pratiqu
     - Evaluation de qualité de code
     - Build automatique d'image
     - Construction de documentations automatique
-    - Outils d'exécution de CI
-    - [OPTIONNEL] Promotion d'images
 
 9. Continuous Delivry (CD)
     - Qu'est ce que la CD ? 
