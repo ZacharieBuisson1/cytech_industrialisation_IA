@@ -66,7 +66,7 @@ Ces travaux sont l'occasion de (re)découvrir tout un ensemble de bonnes pratiqu
     - Redondance, maintenance et persistence
 
 8. Continuous Integration (CI)
-    - Qu'est ce que la CI ? 
+    - Qu'est ce que la CI ?
     - Testing Automatique (Unit tests, tests de masse, Pen Tests, Tests de charge...)
     - Evaluation de qualité de code
     - Build automatique d'image
