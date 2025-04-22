@@ -74,12 +74,11 @@ Ces travaux sont l'occasion de (re)découvrir tout un ensemble de bonnes pratiqu
 
 9. Continuous Delivry (CD)
     - Qu'est ce que la CD ? 
+    - Quand prévoir un déploiement automatique ?
     - Combinaison à Kubernetes
-    - Infrastructure as Code (IaC) : Yaml VS Terraform
-    - Quelques outils de CD : ArgoCD, Red Hat Openshift...
+    - Quelques outils de CD : ArgoCD, Red Hat Openshift, GitHub Actions...
 
 10. Quelques autres pratiques MLOps
     - Suivi d'applications en production (logging, kafka, data drift)
-    - Pipeline d'entrainement automatique 
-    - Feedback Loop
-    - Pipeline d'inférence
+    - Pipeline d'entrainement automatique
+    - Tester la pertinence d'un modèle en conditions réelles
