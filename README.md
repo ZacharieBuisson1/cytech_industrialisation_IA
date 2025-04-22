@@ -80,5 +80,5 @@ Ces travaux sont l'occasion de (re)découvrir tout un ensemble de bonnes pratiqu
 
 10. Quelques autres pratiques MLOps
     - Suivi d'applications en production (logging, kafka, data drift)
-    - Pipeline d'entrainement automatique
     - Tester la pertinence d'un modèle en conditions réelles
+    - Pipeline d'entrainement automatique
