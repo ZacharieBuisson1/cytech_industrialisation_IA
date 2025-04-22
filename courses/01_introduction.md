@@ -35,10 +35,12 @@ Comme dit précédemment, le but de ce cours est de construire une application q
 
 | **Catégorie**                        | **Éléments**                            |
 |-------------------------------------|-----------------------------------------|
-| **Factorisation du code (script) - 5 pts**  | - Code mis sous forme de fonctions <br>  - Code clair <br> - Respect de la qualité du code Python <br> - Tests unitaires pertinents pour chaque fonction |
-| **Application API - 5 pts**                     | - Développement de l'API (health_check, predict...) <br> - Création d'une documentation <br> - Test de l'application en local |
-| **CI/CD et Déploiement - 5 pts**            | - Intégration continue (CI) en place <br> - Déploiement continu (CD) en place <br> - Image disponible sur le registry <br> - Application déployée en ligne |
-| **Mise en perspective de l'application - 5 pts** | - Description de l’application <br> - Méthode pour mesurer l’impact du modèle <br> - Stratégie de tests en production <br> - Bonnes pratiques de MLOps supplémentaires |
+| **Factorisation du code (script)**  | - Code mis sous forme de fonctions <br>  - Code clair <br> - Respect de la qualité du code Python <br> - Tests unitaires pertinents pour chaque fonction |
+| **Application API**                     | - Développement de l'API (health_check, predict...) <br> - Création d'une documentation <br> - Test de l'application en local |
+| **CI/CD et Déploiement**            | - Intégration continue (CI) en place <br> - Déploiement continu (CD) en place <br> - Image disponible sur le registry <br> - Application déployée en ligne |
+| **Mise en perspective de l'application** | - Description de l’application <br> - Méthode pour mesurer l’impact du modèle <br> - Stratégie de tests en production <br> - Bonnes pratiques de MLOps supplémentaires |
+
+La notation tiendra également compte de l'assiduité à ce cours ainsi que la qualité des travaux. Si l'ensemble des points ci-dessus sont réalisés, une bonne note ne devrait pas être loin.
 
 ## Prérequis pour ce cours 
 
