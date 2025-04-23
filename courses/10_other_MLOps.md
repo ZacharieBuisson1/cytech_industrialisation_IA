@@ -6,7 +6,7 @@ Certaines bonnes pratiques en Machine Learning peuvent être mentionnées en vra
 
 ### Logging dans une application
 
-Le logging dans une application (et de manière générale dans un code python) permet de créer des synthétiser et normaliser l'édition et l'affichage de message d'informations.
+Le logging dans une application (et de manière générale dans un code python) permet de créer et normaliser l'édition et l'affichage de message d'informations.
 
 Génériquement, on sépare les messages de logging en catégorie selon les types : debug, info, warning, error, critical.
 
@@ -46,7 +46,7 @@ Le Data Drift est un concept de Machine Learning qui consiste à constater un ch
 Conceptuellement, on distingue plusieurs types de drift : 
 - `label drift` : la distribution de la variable cible change alors que les variables prédictives ne changent pas ;
 - `data drift` : une ou plusieurs variables prédictives d'un modèle changent alors que la target reste la même ; 
-- `conceptual drift` : la relation entre les variables prédictives et les targets changent.
+- `conceptual drift` : la relation entre les variables prédictives et les targets change.
 
 Après, le drift peut se dérouler et avoir lieu selon la temporalité suivante : 
 
@@ -79,11 +79,12 @@ Pour tester un modèle en production, il existe des méthodes pour déployer un 
 </p>
 
 - Blue / Green deployment : on crée deux versions de l'environnement de production, et on déploie la nouvelle version sur le deuxième environnement en passant de la première à la deuxième.
+[Pas clair]
 
 
 ## Pipeline d'entrainement automatique
 
-Il est possible d'automatiser l'entrainement automatique de modèles de Machine Learning en click bouton. Cela permet d'être très rapidement prêt à avoir un nouveau modèle à déployer en production, avec les contraintes de modélisation déjà incluse dedans.
+Il est possible d'automatiser l'entrainement automatique de modèles de Machine Learning en click bouton. Cela permet d'être très rapidement prêt à avoir un nouveau modèle à déployer en production, avec les contraintes de modélisation déjà incluses dedans.
 
 <p align="center">
     <img src="./resources/10_mlops/pipelines.png" width="80%"/>
