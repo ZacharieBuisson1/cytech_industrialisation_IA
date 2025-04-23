@@ -6,27 +6,27 @@
 
 ### Description générale
 
-Kubernetes est un système open source d'orchestration de conteneurs. Avec cet outil, il est possible de gérer le déploiement, la vie de l'application met à l'échelle et surpervise les applications. 
+Kubernetes est un système open source d'orchestration de conteneurs. Avec cet outil, il est possible de gérer le déploiement, la vie de l'application, sa mise à l'échelle et de surperviser les applications. 
 
-Il est notamment utiliser pour :
+Il est notamment utilisé pour :
 - Faciliter la gestion d’applications distribuées ;
-- Répartir la charge automatiquement ;
+- Répartir la charge automatiquement (load balancing) ;
 - Redémarrer les conteneurs en échec ;
 - Déployer des mises à jour sans interruption (rolling updates).
 
 Kubernetes se divise en deux parties majeures : 
-- **un plan de contrôle** (control plan) : il prend les décisions d'orchestration, comme ou déployer l'application, quand redémarrer le cluster... Les composants majeurs du plan de contrôle sont : 
+- **un plan de contrôle** (control plan) : il prend les décisions d'orchestration, comme où déployer l'application, quand redémarrer le cluster... Les composants majeurs du plan de contrôle sont : 
     - `kube-apiserver` : le point d'entrée de l'API ;
     - `kube-scheduler`: décide ou placer les conteneurs ;
-    - `kube-control-manager`: surveille l'état global des unites.
+    - `kube-control-manager`: surveille l'état global des unités.
 - **des noeuds** : les noeuds exécutent les conteneurs.
 
 ### Principe de fonctionnement
 
-Les unités de base de Kubernetes sont appelés des "pods". Ces pods peuvent contenir un ou plusieurs conteneurs, partageant certaines caractéristiques communes (IP commune, espace de stockage commun). Ces unités sont conçues pour être éphémère : si le pod plante, Kubernetes le redémarre.
+Les unités de base de Kubernetes sont appelés des "pods". Ces pods peuvent contenir un ou plusieurs conteneurs, partageant certaines caractéristiques communes (IP commune, espace de stockage commun). Ces unités sont conçues pour être éphémères : si le pod plante, Kubernetes le redémarre.
 
 Pour savoir comment configurer les pods et l'ensemble du service, on définit un fichier de configuration nommé "deployment". Ce fichier donne les critères de l'application, avec par exemple :
-- `repliaces` : combien de pods je veux en vie en même temps pour assurer que mon application soit dans un état permettant une utilisation correcte ? 
+- `replicas` : combien de pods je veux en vie en même temps pour assurer que mon application soit dans un état permettant une utilisation correcte ? 
 - `LivenessProbe` : tous les combiens de temps je dois tester l'application ? 
 - `scaling` : dois-je augmenter le nombre de pods pour accepter plus de charge ? 
 
@@ -67,7 +67,7 @@ Le load balancing, i.e. la gestion de la repartition des demandes, est géré au
 
 La maintenance se concentre autour des opérations nécessaires pour mettre à jour, corriger, ou faire évoluer une application sans impacter le service.
 
-Par exemple, pour faire une mise à jour, Kubernetes va progessivment mettre à jour les pods, un à un, maintenant l'activité : c'est le **rolling update**, avec des **rollbacks** en cas d'échec.
+Par exemple, pour faire une mise à jour, Kubernetes va progessivement mettre à jour les pods, un à un, maintenant l'activité : c'est le **rolling update**, avec des **rollbacks** en cas d'échec.
 
 ```bash
 kubectl rollout restart deployment mon-app
