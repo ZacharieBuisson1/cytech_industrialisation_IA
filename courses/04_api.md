@@ -4,7 +4,7 @@
 
 ### Késako ?
 
-Une API (Application Programming Interface) est une interface de logicielle qui permet de connecter un logiciel ou un service à un autre logiciel.
+Une API (Application Programming Interface) est une interface logicielle qui permet de connecter un logiciel ou un service à un autre logiciel.
 
 En particulier, nous étudierons particulièrement le cas des API REST (REpresentational State Transfer). Ce sont des interfaces auxquelles on soumet des informations à un point de terminaison.
 
@@ -26,7 +26,7 @@ Ces routes peuvent être appelées avec différents types de requêtes, avec not
 D'autres types de requêtes existent mais ne seront pas abordées dans ce cours (PUT pour mettre à jour et DELETE pour supprimer).
 
 Imaginons l'API exécutant un modèle de Machine Learning : 
-- `<URL_de-l'API>/health` : requête GET, est-ce que l'application est fonctionnelle actuellement ;
+- `<URL_de-l'API>/health` : requête GET, indique si l'application est fonctionnelle actuellement ;
 <p align="center">
   <img src="./resources/04_api/api_get_example.png" />
 </p>
@@ -39,7 +39,7 @@ Imaginons l'API exécutant un modèle de Machine Learning :
 
 ## Framework de développement Python
 
-Pour développer des API en Python, il existe un grand nombre de framework utilisable possédant des forces et des faiblesses : 
+Pour développer des API en Python, il existe un grand nombre de frameworks utilisables, chacun possédant des forces et des faiblesses : 
 
 | Framework                        | Forces                                                                                                                                                        | Faiblesses                                                                                                              |
 |----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
@@ -52,19 +52,19 @@ Notons que ces frameworks utilisent la programmation asynchrone : c'est l'objet 
 
 ## Programmation Asynchrone
 
-La programmation asynchrone est une programmation qui permet d'exécuter plusieurs taches de manière concurrente et qui évite de passer du temps à exécuter une tache et à attendre la fin de celle-ci.
+La programmation asynchrone est une programmation qui permet d'exécuter plusieurs tâches de manière concurrente et qui évite de passer du temps à exécuter une tâche et à attendre la fin de celle-ci.
 
-Il ne faut pas confondre deux taches qui s'exécutent de manière concurrente VS en parallèle : 
-- en **concurrence**, on a différentes taches qui s'exécutent en simultanée ;
-- en **parallèle**, il s'agit d'une seule tache qui s'exécute en plusieurs sous-tâche.
+Il ne faut pas confondre deux tâches qui s'exécutent de manière concurrente VS en parallèle : 
+- en **concurrence**, on a différentes tâches qui s'exécutent en simultané ;
+- en **parallèle**, il s'agit d'une seule tâche qui s'exécute en plusieurs sous-tâches.
 
-Ainsi, cette stratégie permet de maximiser la programmation et l'exécution en production de plusieurs requêtes en simultannée.
+Ainsi, cette stratégie permet de maximiser la programmation et l'exécution en production de plusieurs requêtes en simultané.
 
 ## Open API - Swagger
 
 Un bon code résilient de production conctient une documentation complète et utilisable par un développeur.
 
-En particulier, la création d'API avec les framexorks présentés plus haut s'accompagne d'une documentation fonctionnelle expliquant les routes qu'une application utilise. Le swagger est donc la pour décrire les fonctions implémentées, les routes pour appeler chaque fonction mais également décrire les entrées et les sorties de fonctions, particulièrement dans le cadre d'un modèle de Machine Learning.
+En particulier, la création d'API avec les frameworks présentés plus haut s'accompagne d'une documentation fonctionnelle expliquant les routes qu'une application utilise. Le swagger est donc là pour décrire les fonctions implémentées, les routes pour appeler chaque fonction mais également décrire les entrées et les sorties de fonctions, particulièrement dans le cadre d'un modèle de Machine Learning.
 
 Un swagger d'API ressemble à quelque chose comme ceci :
 
@@ -96,4 +96,4 @@ Il n'existe pas qu'une seule façon de mettre à disposition un modèle de Machi
 
 Par exemple, pour effectuer une démonstration rapide, interfacer son modèle avec un créateur de site web local (sur la partie front) permet de rapidement présenter et mettre à disposition un modèle.
 
-En parallèle, l'utilisation d'un modèle au travers d'une API est particulièrement adapté dans le cas d'une utilisation ponctuelle régulière. Un code devant s'exécuter une seule fois par jour peut être effectuée via un "batch", qui peut être mis en production avec un CRON (linux) ou un TASK SCHEDULER (Windows).
+En parallèle, l'utilisation d'un modèle au travers d'une API est particulièrement adapté dans le cas d'une utilisation ponctuelle régulière. Un code devant s'exécuter une seule fois par jour peut être effectuée via un "batch", qui peut être mis en production avec un CRON (Linux) ou un TASK SCHEDULER (Windows).
