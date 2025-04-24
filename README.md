@@ -1,4 +1,4 @@
-# CYTech 2024 - Support du cours § Cours d'industrialisation d'IA en Finance
+# CYTech 2024 - Support du cours - Cours d'industrialisation d'IA en Finance
 
 ## Introduction 
 
