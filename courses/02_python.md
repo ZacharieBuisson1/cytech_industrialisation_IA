@@ -61,7 +61,7 @@ L'approche fonctionnelle est extrêmement importante en python. Les cellules ne 
 
 ## Programmation Orientée Objet
 
-Une bonne approche pour éviter les redondances de codes est la programmation orientée objet. L'objet de ce type de programmation est de créer des "classes", c'est à dire des objets avec des caractéristiques communes (les "attributs") et disposant d'un nombre de "méthodes" , c'est à dire des fonctions pouvant être appliquées à ces élements.
+Une bonne approche pour éviter les redondances de codes est la programmation orientée objet. L'objectif de ce type de programmation est de créer des "classes", c'est à dire des objets avec des caractéristiques communes (les "attributs") et disposant d'un nombre de "méthodes" , c'est à dire des fonctions pouvant être appliquées à ces élements.
 
 Exemple :
 
@@ -99,7 +99,24 @@ Cet exemple peut sembler basique mais il permet de se rendre compte que l'on peu
 
 Concernant la data science, l'utilisation de classes spécifiques appelées Data Classes permettent de contrôler et typer les attendus d'un modèle de Machine Learning, en spécifiant les types, les champs attendus... 
 
-Des actions plus complètes sont possibles sur la création de classes avancées (héritages de classes, définitions de méthodes avancées...). Ces notions ne seront pas abrodées dans ce cours.
+Des actions plus complètes sont possibles sur la création de classes avancées (héritages de classes, définitions de méthodes avancées...).
+
+### A propos de l'héritage
+
+Il est possible de faire un héritage, c'est à dire de créer une sous classe (classe enfant) qui partage tous les attributs et les méthodes, avec de nouvelles méthodes.
+
+```python
+class CreditAgricoleCustomer(BankCustomer):
+    """Class d'information sur un client dans sa banque."""
+
+    def __init__(self, caisse_regionale:str):
+        """ Constructeur : initialisation des attributs de la classe"""
+        self.caisse_regionale = caisse_regionale
+
+    def show_caisse_regionale(self):
+        """ METHODE 1 """
+        return self.caisse_regionale
+```
 
 ## Programmation SOLID
 

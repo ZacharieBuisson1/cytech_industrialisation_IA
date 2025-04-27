@@ -84,7 +84,7 @@ Pour tester un modèle en production, il existe des méthodes pour déployer un 
 
 ## Pipeline d'entrainement automatique
 
-Il est possible d'automatiser l'entrainement automatique de modèles de Machine Learning en click bouton. Cela permet d'être très rapidement prêt à avoir un nouveau modèle à déployer en production, avec les contraintes de modélisation déjà incluses dedans.
+Il est possible d'automatiser l'entrainement de modèles de Machine Learning en click bouton. Cela permet d'être très rapidement prêt à avoir un nouveau modèle à déployer en production, avec les contraintes de modélisation déjà incluses dedans.
 
 <p align="center">
     <img src="./resources/10_mlops/pipelines.png" width="80%"/>

@@ -20,10 +20,10 @@ En particulier, nous étudierons particulièrement le cas des API REST (REpresen
 Une API est composée de **routes** que l'on peut appeler (un peu comme les URL d'un site WEB). 
 
 Ces routes peuvent être appelées avec différents types de requêtes, avec notamment :
-- `GET` : requête qui ne requiert pas d'information en entrée et qui renvoie un résultat ; 
-- `POST` : requête avec un input, qui va être envoyé et qui attend une réponse
+- `GET` : requête qui sert à récupérer des informations depuis un serveur. Les données (paramètres) sont passées dans l'URL ; 
+- `POST` : requête qui sert à envoyer des informations au serveur (par exemple, un formulaire). Les données sont dans le corps de la requête, pas dans l'URL.
 
-D'autres types de requêtes existent mais ne seront pas abordées dans ce cours (PUT pour mettre à jour et DELETE pour supprimer).
+D'autres types de requêtes existent mais ne seront pas abordées dans ce cours (`PUT` pour mettre à jour une information et `DELETE` pour supprimer).
 
 Imaginons l'API exécutant un modèle de Machine Learning : 
 - `<URL_de-l'API>/health` : requête GET, indique si l'application est fonctionnelle actuellement ;
@@ -35,6 +35,16 @@ Imaginons l'API exécutant un modèle de Machine Learning :
 <p align="center">
   <img src="./resources/04_api/api_post_example.png" />
 </p>
+
+## Programmation Asynchrone
+
+La programmation asynchrone est une programmation qui permet d'exécuter plusieurs tâches de manière concurrente et qui évite de passer du temps à exécuter une tâche et à attendre la fin de celle-ci.
+
+Il ne faut pas confondre deux tâches qui s'exécutent de manière concurrente VS en parallèle : 
+- en **concurrence**, on a différentes tâches qui s'exécutent en simultané ;
+- en **parallèle**, il s'agit d'une seule tâche qui s'exécute en plusieurs sous-tâches.
+
+Ainsi, cette stratégie permet de maximiser la programmation et l'exécution en production de plusieurs requêtes en simultané.
 
 
 ## Framework de développement Python
@@ -50,19 +60,9 @@ Pour développer des API en Python, il existe un grand nombre de frameworks util
 
 Notons que ces frameworks utilisent la programmation asynchrone : c'est l'objet de notre prochain point.
 
-## Programmation Asynchrone
-
-La programmation asynchrone est une programmation qui permet d'exécuter plusieurs tâches de manière concurrente et qui évite de passer du temps à exécuter une tâche et à attendre la fin de celle-ci.
-
-Il ne faut pas confondre deux tâches qui s'exécutent de manière concurrente VS en parallèle : 
-- en **concurrence**, on a différentes tâches qui s'exécutent en simultané ;
-- en **parallèle**, il s'agit d'une seule tâche qui s'exécute en plusieurs sous-tâches.
-
-Ainsi, cette stratégie permet de maximiser la programmation et l'exécution en production de plusieurs requêtes en simultané.
-
 ## Open API - Swagger
 
-Un bon code résilient de production conctient une documentation complète et utilisable par un développeur.
+Un bon code, résilient et en production, contient une documentation complète et utilisable par un développeur.
 
 En particulier, la création d'API avec les frameworks présentés plus haut s'accompagne d'une documentation fonctionnelle expliquant les routes qu'une application utilise. Le swagger est donc là pour décrire les fonctions implémentées, les routes pour appeler chaque fonction mais également décrire les entrées et les sorties de fonctions, particulièrement dans le cadre d'un modèle de Machine Learning.
 

@@ -72,8 +72,8 @@ En pratique, une grande liberté est laissée sur la partie environnement de dé
 ### A propos des environnements de production...
 
 Les environnements de production sont généralement divisés en 4 parties et dans cet ordre : 
-- **Environnement de développement** : c'est le premier, il sert à accueillir l'application et permet au développeur (Data Scientist ou Machine Learning Engineer) de déployer une première version et d'y effectuer quelques tests ;
-- **Environnement de recette (ou R7)** : c'est l'environnement sur lequel l'ensemble des tests permettant de valider l'application doivent être faits. Une partie dédiée au testing est proposée dans la [partie 8](08_ci.md). Ces tests peuvent être directement réalisés par le développeur ou bien par une équipe dédiée au testing ;
+- **Environnement de développement** : c'est le premier, il sert à accueillir l'application et permet au développeur (Data Scientist ou Machine Learning Engineer) de déployer une première version et d'y effectuer quelques tests. Cette version de l'application est très instable, le développer peut tester et déployer rapidement dessus ;
+- **Environnement de recette (ou R7)** : c'est l'environnement sur lequel l'ensemble des tests permettant de valider l'application doivent être faits. Cette version est plus stable que la précédente. Une partie dédiée au testing est proposée dans la [partie 8](08_ci.md). Ces tests peuvent être directement réalisés par le développeur ou bien par une équipe dédiée au testing ;
 - **Environnement de pré-production** : cet environnement sert à vérifier certains aspects fonctionnels de l'application, toujours avec quelques tests. Normalement, cet environnement n'est plus laissé à la main des développeurs, c'est un OPS qui s'en occupe ;
 - **Environnement de production** : c'est l'environnement final de l'application. L'application y est déployée dans son état final, et c'est elle qui est utilisée par les utilisateurs finaux.
 

@@ -1,4 +1,4 @@
-# CYTech 2024 - Support du cours - Cours d'industrialisation d'IA en Finance
+# CYTech 2024 / 2025 - Support du cours - Cours d'industrialisation d'IA en Finance
 
 ## Introduction 
 
@@ -24,7 +24,6 @@ Ces travaux sont l'occasion de (re)découvrir tout un ensemble de bonnes pratiqu
     - Présentation des intervenants du cours 
     - Présentation du projet 
     - Notation
-
 
 2. Principes de programation Python avancés
     - Qu'est ce que l'ingéniérie logicielle ?
