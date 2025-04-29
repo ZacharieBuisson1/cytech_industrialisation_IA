@@ -46,7 +46,7 @@ Le Data Drift est un concept de Machine Learning qui consiste à constater un ch
 Conceptuellement, on distingue plusieurs types de drift : 
 - `label drift` : la distribution de la variable cible change alors que les variables prédictives ne changent pas ;
 - `data drift` : une ou plusieurs variables prédictives d'un modèle changent alors que la target reste la même ; 
-- `conceptual drift` : la relation entre les variables prédictives et les targets change.
+- `conceptual drift` : la relation entre les variables prédictives et les targets changent.
 
 Après, le drift peut se dérouler et avoir lieu selon la temporalité suivante : 
 

@@ -100,6 +100,6 @@ Un certain nombre de contraintes n'ont pas encore été adressées à ce stade :
 - quelle est l'URL de l'application ? 
 - quelle partie de l'API est disponible ? 
 - comment suivre l'état de fonctionnement de l'application ? 
-- comment gérer un flux un important d'utilisateur ? 
+- comment gérer un flux un important d'utilisateurs ? 
 
 Ces questions peuvent être configurées dans des fichiers de configuration, qui vont configurer l'orchestration des conteneurs.
