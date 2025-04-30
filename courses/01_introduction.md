@@ -27,7 +27,10 @@ Ce cours se divise en deux parties :
 Sur la partie cours, il y a un powerpoint qui contient un condensé de ce que l'on peut savoir basiquement sur le sujet, et un cours écrit sur GitHub qui est en fait un grand tutoriel sur comment bien construire une application de ML pour la production.
 
 Vous êtes le premier groupe à suivre ce cours : n'hésitez pas à nous faire un retour si cela n'a pas déjà été fait, au moins sur la partie théorique.
-[+ donner email ?]
+
+Mon mail (Zacharie BUISSON) : zacharie.buisson@orange.fr
+
+Celui de Mario DEFRANCE : mario.defrance@ca-assurances.fr
 
 ## Notation et évaluation
 
