@@ -40,7 +40,7 @@ Comme dit précédemment, le but de ce cours est de construire une application q
 | **Catégorie**                        | **Éléments**                            |
 |-------------------------------------|-----------------------------------------|
 | **Factorisation du code (script)**  | - Code mis sous forme de fonctions <br>  - Code clair <br> - Respect de la qualité du code Python <br> - Tests unitaires pertinents pour chaque fonction |
-| **Application API**                     | - Développement de l'API (health_check, predict...) <br> - Création d'une documentation <br> - Test de l'application en local |
+| **Application API**                     | - Développement de l'API (health_check, predict...) <br> Création d'un packaging avec Poetry <br> - Création d'une documentation <br> - Test de l'application en local |
 | **CI/CD et Déploiement**            | - Intégration continue (CI) en place <br> - Déploiement continu (CD) en place <br> - Image disponible sur le registry <br> - Application déployée en ligne |
 | **Mise en perspective de l'application** | - Description de l’application <br> - Méthode pour mesurer l’impact du modèle <br> - Stratégie de tests en production <br> - Bonnes pratiques de MLOps supplémentaires |
 
