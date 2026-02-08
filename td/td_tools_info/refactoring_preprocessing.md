@@ -1,4 +1,4 @@
-# Refactoring du preprocessing
+# Refactoring du preprocessing & utilisation d'un processing en inférence
 
 ### A propos de la réécriture d'un preprocessing entrainé
 
@@ -28,9 +28,9 @@ with open("list_info_train.pkl", "wb") as f:
 
 Cette méthode est lourde car il faut précisément tracer l'ensemble des étapes de modélisation.
 
-##### Méthode 2 - Créer une étape de Pipeline sklearn à entrainer 
+##### Méthode 2 - Créer une étape de Pipeline sklearn à entrainer
 
-La méthode la plus propre est de créer une classe python qui fait ça : 
+La méthode la plus propre est de créer une classe python qui fait ça :
 
 ```python
 from sklearn.base import BaseEstimator, TransformerMixin
